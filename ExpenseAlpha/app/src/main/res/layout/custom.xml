@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:orientation="horizontal"
+    android:background="@drawable/buttonshape"
+    >
+
+    <ImageView
+        android:id="@+id/imgLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_dress" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="Text Here"
+        android:gravity="center"
+        android:textColor="#000000">
+    </TextView>
+
+</LinearLayout>

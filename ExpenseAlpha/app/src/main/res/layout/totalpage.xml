@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a4"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp">
+
+
+        <Button
+            android:id="@+id/total"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Total Expense"
+            android:onClick="totalclick"
+            android:textColor="#000000"
+            android:layout_weight="0.3"
+            android:layout_gravity="center"/>
+        <Button
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Month Expense"
+            android:layout_weight="0.3"
+            android:onClick="monthclick"
+            android:id="@+id/monthclick"
+            android:layout_gravity="center"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/selectmnth"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Select Month"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/monthtotal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
